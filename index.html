@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="assets/css/main.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<h1>Buscaminas</h1>
+			<div class="col-md-9">
+				<table id="table"></table>
+			</div>
+			<div class="col-md-3">
+		        <select name="sources" id="level" class="custom-select sources" placeholder="Level">
+				    <option value="0" selected="">FÁCIL</option>
+				    <option value="1">MEDIO</option>
+				    <option value="2">DIFICIL</option>
+				</select>
+				<br>
+				<button class="btn-blue" onclick="playAgain()">Play Again</button>
+					
+			</div>
+		</div>
+	</div>
+<script src="assets/js/solucion_procedimental.js"></script>
+<script src="assets/js/modernizr.js"></script>
+<!-- <script src="assets/js/solucion_poo_literales.js"></script>
+<script src="assets/js/solucion_poo_clases.js"></script -->
+</body>
+</html>
